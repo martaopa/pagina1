@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 23 Oct 2024 18:37:34 at https://certificado.skill.edu.pe/BA21-CAI08-72 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F  -%F  -%l "es, en, *" https://certificado.skill.edu.pe/BA21-CAI08-72 -O1 "C:\Users\PC11\Downloads\6" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+
+	such as username/password authentication for websites mirrored in this project
+
+	do not share these files/folders if you want these information to remain private
+
+
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 seconds : 30 links scanned, 29 files written (2086107 bytes overall) [1427523 bytes received at 118960 bytes/sec], 801979 bytes transferred using HTTP compression in 6 files, ratio 16%, 10.0 requests per connection
+
+(No errors, 0 warnings, 0 messages)
+

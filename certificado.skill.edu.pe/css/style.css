@@ -1,0 +1,443 @@
+@font-face {
+  font-family: "Gotham Rounded";
+  src: url("../fonts/GothamRounded-Bold.eot");
+  src: url("../fonts/GothamRounded-Boldd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamRounded-Bold.woff2") format("woff2"), url("../fonts/GothamRounded-Bold.woff") format("woff"), url("../fonts/GothamRounded-Bold.ttf") format("truetype"), url("../fonts/GothamRounded-Bold.svg#GothamRounded-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Rounded Book";
+  src: url("../fonts/GothamRounded-Book.eot");
+  src: url("../fonts/GothamRounded-Bookd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamRounded-Book.woff2") format("woff2"), url("../fonts/GothamRounded-Book.woff") format("woff"), url("../fonts/GothamRounded-Book.ttf") format("truetype"), url("../fonts/GothamRounded-Book.svg#GothamRounded-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Rounded";
+  src: url("../fonts/GothamRounded-Light.eot");
+  src: url("../fonts/GothamRounded-Lightd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamRounded-Light.woff2") format("woff2"), url("../fonts/GothamRounded-Light.woff") format("woff"), url("../fonts/GothamRounded-Light.ttf") format("truetype"), url("../fonts/GothamRounded-Light.svg#GothamRounded-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+.gotham {
+  font-family: "Gotham Rounded";
+  font-weight: normal;
+}
+
+.gothamBold {
+  font-family: "Gotham Rounded";
+  font-weight: bold;
+}
+
+.gothamBook {
+  font-family: "Gotham Rounded Book";
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  height: 15px;
+  height: 45px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.certificateValidate {
+  background-image: url("../img/bkCertificate.jpg");
+}
+
+.pageValidate {
+  background-image: url("../img/bkValidate.png");
+  background-position: -240px 260px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.validate {
+  font-family: "Gotham Rounded";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.validate .validate__card {
+  display: inline-block;
+}
+.validate .validate__card__content {
+  max-width: 300px;
+  display: flex;
+  justify-content: stretch;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (min-width: 414px) {
+  .validate .validate__card__content {
+    max-width: 400px;
+  }
+}
+@media (min-width: 1024px) {
+  .validate .validate__card__content {
+    max-width: 945px;
+    background-color: #fff;
+    justify-content: stretch;
+    border-radius: 20px;
+  }
+}
+.validate .validate__card__content .validate__card__logo {
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  padding: 10px 0;
+}
+@media (min-width: 1024px) {
+  .validate .validate__card__content .validate__card__logo {
+    background-image: url("../img/fdLogo.png");
+    width: auto;
+    padding: 0 90px;
+  }
+}
+.validate .validate__card__content .validate__card__logo .logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+.validate .validate__card__content .validate__card__logo .logo img {
+  width: 130px;
+  margin: 0 auto;
+}
+@media (min-width: 1024px) {
+  .validate .validate__card__content .validate__card__logo .logo img {
+    width: auto;
+  }
+}
+.validate .validate__card__content .validate__card__form {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+@media (min-width: 1024px) {
+  .validate .validate__card__content .validate__card__form {
+    background-color: inherit;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0;
+  }
+}
+.validate .validate__card__content .validate__card__form .validate__content img {
+  width: 80px;
+}
+@media (min-width: 1024px) {
+  .validate .validate__card__content .validate__card__form .validate__content img {
+    width: auto;
+  }
+}
+.validate .validate__card__content .form__certificate {
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .validate .validate__card__content .form__certificate {
+    width: 345px;
+  }
+}
+.validate .validate__card__content .form__certificate input[type=text] {
+  text-align: center;
+}
+.validate .validate__card__content .form__certificate input[type=submit] {
+  background-color: #FF1F66;
+  color: #fff;
+  padding: 10px 45px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  margin-bottom: 20px;
+}
+@media (min-width: 1024px) {
+  .validate .validate__card__content .form__certificate input[type=submit] {
+    font-size: 23px;
+    margin-bottom: 40px;
+  }
+}
+.validate .validate__card__content .form__certificate p {
+  font-size: 13px;
+  font-family: "Gotham Rounded Book";
+}
+@media (min-width: 1024px) {
+  .validate .validate__card__content .form__certificate p {
+    font-size: 15px;
+  }
+}
+.validate .validate__card__content .validate__card__title {
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 1024px) {
+  .validate .validate__card__content .validate__card__title {
+    width: 258px;
+  }
+}
+.validate .validate__card__content .validate__card__title h1 {
+  font-size: 20px;
+  font-family: "Gotham Rounded";
+  font-weight: bold;
+  color: #FF592A;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+@media (min-width: 1024px) {
+  .validate .validate__card__content .validate__card__title h1 {
+    font-size: 36px;
+  }
+}
+
+.pageValidate .header__logo {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .pageValidate .header__logo {
+    display: block;
+  }
+}
+.pageValidate .header__return img {
+  width: 80px;
+}
+@media (min-width: 414px) {
+  .pageValidate .header__return img {
+    width: auto;
+  }
+}
+
+.validateSuccess {
+  margin-top: 40px;
+  font-family: "Gotham Rounded";
+}
+.validateSuccess .validateSuccess__content {
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width: 414px) {
+  .validateSuccess .validateSuccess__content {
+    width: 400px;
+  }
+}
+@media (min-width: 1024px) {
+  .validateSuccess .validateSuccess__content {
+    display: flex;
+    width: 1024px;
+  }
+}
+.validateSuccess .validateSuccess__content .validateSuccess__left {
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .validateSuccess .validateSuccess__content .validateSuccess__left {
+    width: 384px;
+  }
+}
+.validateSuccess .validateSuccess__content .validateSuccess__left h1 {
+  font-size: 38px;
+  color: #FF592A;
+  font-weight: bold;
+  word-wrap: break-word;
+  padding: 0 10px;
+  text-align: right;
+}
+@media (min-width: 1024px) {
+  .validateSuccess .validateSuccess__content .validateSuccess__left h1 {
+    font-size: 100px;
+    padding: 0 30px;
+  }
+}
+.validateSuccess .validateSuccess__content .validateSuccess__left .validate__header {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .validateSuccess .validateSuccess__content .validateSuccess__left .validate__header {
+    display: block;
+  }
+}
+.validateSuccess .validateSuccess__content .validateSuccess__left .validate__header h1 {
+  max-width: 120px;
+  border-right: 3px solid #000;
+  margin-right: 10px;
+}
+@media (min-width: 1024px) {
+  .validateSuccess .validateSuccess__content .validateSuccess__left .validate__header h1 {
+    max-width: 350px;
+    border-right: none;
+  }
+}
+.validateSuccess .validateSuccess__content .validateSuccess__left .validate__header img {
+  width: 120px;
+}
+@media (min-width: 1024px) {
+  .validateSuccess .validateSuccess__content .validateSuccess__left .validate__header img {
+    display: none;
+  }
+}
+.validateSuccess .validateSuccess__content .validateSuccess__right {
+  padding: 0 10px;
+}
+@media (min-width: 1024px) {
+  .validateSuccess .validateSuccess__content .validateSuccess__right {
+    border-left: 3px solid #000;
+    padding: 0 40px;
+  }
+}
+.validateSuccess .validateSuccess__content .validateSuccess__right h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+@media (min-width: 1024px) {
+  .validateSuccess .validateSuccess__content .validateSuccess__right h2 {
+    font-size: 60px;
+  }
+}
+.validateSuccess .validateSuccess__content .validateSuccess__right p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+@media (min-width: 1024px) {
+  .validateSuccess .validateSuccess__content .validateSuccess__right p {
+    font-size: 22px;
+  }
+}
+.validateSuccess .validateSuccess__content .validateSuccess__right p span {
+  width: 100%;
+  display: block;
+}
+.validateSuccess .validateSuccess__content .validateSuccess__right p strong {
+  font-size: 24px;
+}
+@media (min-width: 1024px) {
+  .validateSuccess .validateSuccess__content .validateSuccess__right p strong {
+    font-size: 30px;
+  }
+}
+.validateSuccess .validateSuccess__content .validateSuccess__right .dates {
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #000;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+}
+.validateSuccess .validateSuccess__content .validateSuccess__right .dates p {
+  margin: 0;
+}
+.validateSuccess .validateSuccess__content .validateSuccess__right .dates .date__left, .validateSuccess .validateSuccess__content .validateSuccess__right .dates .date__right {
+  padding: 15px 15px;
+}
+.validateSuccess .validateSuccess__content .validateSuccess__right .dates .date__right {
+  border-left: 1px solid #000;
+}
+.validateSuccess .validateSuccess__content .validateSuccess__right .dates strong {
+  font-size: 18px;
+}
+@media (min-width: 1024px) {
+  .validateSuccess .validateSuccess__content .validateSuccess__right .dates strong {
+    font-size: 25px;
+  }
+}
+.validateSuccess .validateSuccess__content .validateSuccess__right .dates span {
+  font-size: 16px;
+}
+@media (min-width: 1024px) {
+  .validateSuccess .validateSuccess__content .validateSuccess__right .dates span {
+    font-size: 22px;
+  }
+}
+.validateSuccess .validateSuccess__content .validateSuccess__right .btn.btn__pdf {
+  background-color: #FF1F66;
+  border-radius: 8px;
+  padding: 15px 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  padding-top: 25px;
+}
+header .header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
